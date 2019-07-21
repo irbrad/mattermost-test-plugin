@@ -28,7 +28,7 @@ func (p *Plugin) OnActivate() error {
 	botId, err := p.Helpers.EnsureBot(&model.Bot{
 		Username:    "irbot",
 		DisplayName: "irbot",
-		Description: "Created by the com.irbrad.test-mattermost-plugin plugin.",
+		Description: "Created by the com.irbrad.mattermost-test-plugin plugin.",
 	})
 	if err != nil {
 		return errors.Wrap(err, "failed to ensure bot")

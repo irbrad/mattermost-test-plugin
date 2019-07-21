@@ -1,5 +1,5 @@
 {
-    "id": "com.irbrad.test-mattermost-plugin",
+    "id": "com.irbrad.mattermost-test-plugin",
     "name": "irbrad's Test Plugin",
     "description": "This plugin is for testing things.",
     "version": "0.1.0",
